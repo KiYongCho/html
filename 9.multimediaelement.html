@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multimedia element</title>
+</head>
+<body>
+
+    <!--
+        controls : 컨트롤창 나오도록
+        preload : 미리 로딩한 후에 재생할지
+        autoplay : 자동으로 재생 시작
+        loop : 반복재생 여부
+    -->
+    <!--
+    <audio controls preload="none" autoplay loop>
+        <source src="assets/audio.mp3" type="audio/mp3">
+    </audio>
+    -->
+
+    <!--
+        poster : 영상 시작전 이미지
+    -->
+    <!--
+    <video poster="assets/kje.jpg" autoplay loop controls>
+        <source src="assets/video.mp4">
+    </video>
+    -->
+    <video poster="assets/kje.jpg" autoplay loop controls width="640">
+        <source src="https://cdn.pixabay.com/video/2024/02/09/199958-911694865_large.mp4">
+    </video>
+    
+</body>
+</html>
