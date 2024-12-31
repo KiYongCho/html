@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block요소, inline요소</title>
+    <style>
+        div { display: inline; }
+        span { display: block; }
+    </style>
+</head>
+<body>
+
+    <!--
+        block요소 : 웹브라우져 화면상에 표시될 영역을 가지는 요소
+                        ex) div, p, form ...
+        
+        inline요소 : 웹브라우져 화면상에 표시될 영역을 가지지 않는 요소
+                        ex) span, img, input ...
+
+        block요소와 inline요소 구별하는 쉬운 방법 : 코딩을 나란히 해서 화면상에서 줄바꿈을 하면 block요소
+
+        display속성 : block, inline 속성값을 변경할때 사용
+    -->
+    
+    <div>div입니다</div>
+    <div>div입니다</div>
+
+    <p>p입니다</p>
+    <p>p입니다</p>
+
+    <span style="color: blue;">span입니다</span>
+    <span>span입니다</span>
+
+    <img src="assets/kje.jpg">
+    <img src="assets/kje.jpg">
+
+</body>
+</html>
